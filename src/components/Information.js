@@ -1,6 +1,8 @@
 import React from 'react'
+import CountUp from 'react-countup'
 import "./InformationStyles.css"
 import Feed from "../assets/3.jpg"
+import sit from "../assets/sit.jpg"
 
 const Information = () => {
   return (
@@ -30,6 +32,30 @@ const Information = () => {
          <div className="decor">
         <img alt="img" src={Feed}/>
         </div>
+
+        <div className='stat'>
+          <span>
+            <CountUp start={100} end={5000} duration={4} />
+            <span>+</span>
+            </span>
+            <span>Rescued Animals</span>
+            </div>
+        
+            <div className='stat'>
+          <span>
+            <CountUp start={100} end={7000} duration={4} />
+            <span>+</span>
+            </span>
+            <span>Sterilizations</span>
+            </div>
+
+            <div className='stat'>
+          <span>
+            <CountUp start={100} end={1599} duration={3} />
+            <span>+</span>
+            </span>
+            <span>Adoptions</span>
+            </div>
   </div>
   </div>
   
