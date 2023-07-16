@@ -1,11 +1,11 @@
 import "./AnimalsStyles.css"
-import pic1 from "../assets/10.jpg"
+import pic1 from "../assets/Indian_Street_Dog2.jpg"
 import pic2 from "../assets/4.jpg"
 
 function animals() {
     return (
         <div className="aboutrescue">
-            <h2>Rescue Cases</h2>
+            <h2 className="title">Rescue Cases</h2>
             <p>Our skilled team of rescuers goes out of their way to help all the animals in need. <br/>
                 It is often thought that rescues are just accident cases, however, the cases go much beyond that.</p>
 
@@ -14,7 +14,7 @@ function animals() {
                 <img alt="img" src={pic2} className="cat" />
             </div>
             <div className="first">
-                <h3>Human-Animal Conflicts</h3>
+                <h3 className="section-title">Human-Animal Conflicts❌</h3>
                 <p>Human civilization expands, wildlife habitats face encroachment and conflicts arise.
                     Festivals like kite flying during Sankranti pose dangers to birds and animals due to the use of hazardous glass-stringed manjas.
                     Birds often get entangled in abandoned manja strings, requiring immediate rescue and treatment. Similarly, events like weddings
@@ -26,15 +26,17 @@ function animals() {
                 </div>
 
                 <div className="second">
-                    <h3>Cruelty Cases</h3>
+                    <h3>Cruelty Cases⚔️</h3>
                     <p>Despite compassion being inherent to humanity, some individuals exhibit cruelty towards animals, leading to unfortunate circumstances.
-                        Animals, including pets, street animals, and cattle, endure beatings and abuse. Neglectful pet owners subject their pets to appalling conditions,
-                        while others abandon them callously. Abandoned pets contribute to the already large population of stray animals, leaving them vulnerable to attacks,
-                        harsh weather, and starvation. Intentional harm and running over animals result in fatalities or permanent disabilities.
+                        Animals, including pets, street animals, and cattle, endure beatings and abuse. 
+                        {/* Neglectful pet owners subject their pets to appalling conditions,
+                        while others abandon them callously.  */}
+                        {/* Abandoned pets contribute to the already large population of stray animals, leaving them vulnerable to attacks,
+                        harsh weather, and starvation. Intentional harm and running over animals result in fatalities or permanent disabilities. */}
                         Animal cruelty is a punishable offense in India, and we vehemently condemn such behavior, seeking legal measures for recourse.</p>
 
                     <div className="third">
-                        <h3>Illegal breeding</h3>
+                        <h3>Illegal breeding🐕‍🦺</h3>
                         <p>Commercial breeding of pedigree animals has led to widespread animal abuse. Backyard breeding, exploiting pedigree pets for their offspring,
                             and neglecting females after they can no longer reproduce are distressingly common practices. Animals suffer in miserable conditions,
                             while unlicensed breeders and those keeping animals without proper care face legal consequences. Seva takes pride in rescuing these animals,

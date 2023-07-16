@@ -1,5 +1,7 @@
+
 .process {
     padding-top: 40px;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: row;
     gap: 50px;

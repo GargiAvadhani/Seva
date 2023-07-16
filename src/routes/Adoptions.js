@@ -1,6 +1,6 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import aboutimg from "../assets/8.jpg";
+import aboutimg from "../assets/cat2.jpg";
 import React from 'react'
 import Footer from "../components/Footer";
 import Adopt from "../components/Adopt";

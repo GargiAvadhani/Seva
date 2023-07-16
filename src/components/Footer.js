@@ -15,25 +15,25 @@ const Footer = () => {
 
         <div className="footer-section">
 
-          <h3>About</h3>
+          <h3>Seva 🐾</h3>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod eros in nisi tincidunt, vel fermentum metus malesuada.</p>
+          <p>Seva is a registered NGO. We work for the welfare of street dogs and abandoned pet dogs in the city of Pune, India</p>
 
         </div>
 
         <div className="footer-section">
 
-          <h3>Contact</h3>
+          <h3>Contact📩</h3>
 
           <p>Phone: 123-456-789</p>
 
-          <p>Email: example@example.com</p>
+          <p>Email:<a href = "mailto:info@sevact.org"> info@sevact.org</a></p>
 
         </div>
 
         <div className="footer-section">
 
-          <h3>Follow Us</h3>
+          <h3>Follow Us📲</h3>
 
           <div className="social-icons">
 
@@ -51,7 +51,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
 
-        <p>&copy; 2023 All rights reserved. Footer Example.</p>
+        <p>&copy; 2023 Seva Animal Welfare Charitable Trust, Pune | All Rights Reserved | </p>
 
       </div>
 

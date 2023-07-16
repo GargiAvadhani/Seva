@@ -6,7 +6,12 @@
 
 .about-container h1{
     padding-bottom:1rem;
+    
 
+}
+
+.about-container h1:hover{
+    text-decoration: underline overline rgb(136, 62, 136);
 }
 
 .about-container p{

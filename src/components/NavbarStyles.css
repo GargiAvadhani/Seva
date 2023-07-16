@@ -1,14 +1,15 @@
 .NavbarItems{
-    background-color:#fff;
+    background-color: ghostwhite;
     display : flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
     box-shadow: 0 5px 15px 0 rgba(0,0,0,.25);
-    width: 95%;
+    width: 100%;
     height: 88px;
     border-radius: 13px;
     overflow: hidden;
+    position: relative;
 }
 
 .navbar-logo {
@@ -40,8 +41,8 @@
 }
 
 .nav-links:hover{
-    background-color: #6723;
-    color : azure;
+    background-color: #c0bbbb;
+    color : #160000;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
 }

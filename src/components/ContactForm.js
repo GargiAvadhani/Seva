@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import Lottie from 'lottie-react'
+
+import contact from '../assets/contact.json'
 import axios from 'axios';
 import './ContactFormStyles.css';
 
@@ -44,6 +47,13 @@ function ContactForm() {
     <div className="form-container">
       <h1>Seva Animal Welfare Charitable Trust</h1>
       <h2>Send a message to us!</h2>
+
+      <div className='animate'>
+
+      <Lottie animationData={contact}/>
+
+      </div>
+
       {isSubmitted ? (
         <div className="submission-box">
           <p>Name: {user.name}</p>
